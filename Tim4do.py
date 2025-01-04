@@ -1,11 +1,12 @@
-print("Hola gentesita")
+print("Hola Mundo")
 
-print("Hola people")
-
-
-print ("holaaaaaaaa")
 
 numeros = ['1','2','3','4']
 
-print(numeros)
 
+for i in range(len(numeros)) :
+    
+    print (f'Valores: {numeros[i]} Indices: {i}')
+    
+    
+    
